@@ -5,6 +5,9 @@
  */
 package valorantagentgenerator;
 
+import java.awt.Color;
+import java.awt.Image;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 /**
@@ -17,14 +20,8 @@ public class ValorantAgentGenerator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // JFrame
         
-        JFrame frame = new JFrame();
-        
-        frame.setTitle("Valorant Agent Generator");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(420,420);
-        frame.setVisible(true);
+        MainFrame bodyFrame = new MainFrame();
     }
     
 }
